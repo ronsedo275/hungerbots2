@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plaster&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #F3F3F1;
+}
+
+.home{
+    height: 100vh;
+    background: #E9C0E9;
+}
+
+.nav-bar{
+    position: fixed;
+    background: #fff;
+    width: 80rem;
+    height: 5.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    border-radius: 99rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.contact-btn button{
+    border: none;
+    height: 4rem;
+    width: 10rem;
+    border-radius: 99rem;
+    cursor: pointer;
+    background: black;
+    color: white;
+    padding: .4rem;
+}
+
+.nav-bar a{
+    color: black;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: 'Hind Madurai', sans-serif; 
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9rem;
+}
+
+.home-page{
+    display: flex;
+    align-items: center;
+    height: 40rem;
+}
+
+.home-page .home-title{
+    font-family: 'Raleway', sans-serif;
+    color: #512274;
+    font-weight: 800;
+    font-size: 5rem;
+    width: 700px;
+}
+
+.home-page p{
+    width: 700px;
+    color: #512274;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.show, .donate, .add{
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.show button, .donate button, .add button{
+    padding: 1rem;
+    border: none;
+    background: #EFF0EC;
+    border-radius: 99rem;
+    width: 10rem;
+}
+
+.show a, .donate a, .add a{
+    color: #70764D;
+}
+
+.show p, .donate p, .add p{
+    font-size: 16px;
+    color: #1E2330;
+    padding: 40px;
+}
+
+.cards{
+    padding-left: 48px;
+    padding-right: 48px;
+    font-family: 'Hind Madurai', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 110vh;
+}
+
+.about-section{
+    background: #254F1A;
+    height: 100vh;
+    color: #D2E823;
+    font-family: 'Hind Madurai', sans-serif; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-section h1{
+    font-size: 50px;
+}
+
+.about-seciton-description{
+    width: 600px;
+}
+
+::selection {
+    background-color: #000; 
+    color: #fff;
+}
