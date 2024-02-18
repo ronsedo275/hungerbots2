@@ -360,6 +360,12 @@ input{
     border: none;
 }
 
+.item a{
+    text-decoration: underline;
+    text-align: center;
+    padding-left: .2rem;
+    color: #0f2182;
+}
 
 @media screen and (max-width: 1400px) {
     
