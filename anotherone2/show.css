@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1{
+    color: #FBA61A;
+    margin-top: 10px;
+    font-size: 29px;
+    font-weight: 900;
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  
+  body{
+    font-family: sans-serif;
+    background-color: #ffffff;
+    margin-left: 1rem;
+    color: #FBA61A;
+  }
+  
+  
+  input::placeholder{
+    color: #0f2182;
+    font-size: 15px;
+  }
+  
+  main p{
+    color: #FBA61A;
+    font-weight: 200;
+    font-size: 20px;
+  
+  }
+  
+  .state-drives{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(14rem), 1fr));
+    gap: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    padding: 5rem;
+  }
+  
+  .state-drives .state{
+    background-color: #f3f3f3;
+    cursor: pointer;
+    padding: 1rem 0rem 1rem 0rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    text-transform: uppercase;
+    color: #0f2182;
+    border: #ffffff 1px solid;
+  }
+  
+  .state:hover{
+    background: #ffffff;
+    color: #0f2182;
+    border: #FBA61A 1px solid;
+  }
