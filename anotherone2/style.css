@@ -190,7 +190,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     display: flex;
-    gap: 1rem;
+    gap: 4rem;
   }
 
 
@@ -211,8 +211,8 @@ a:hover{
 
   .about-container img{
     border-radius: 20px;
-    width: 325px;
-    height: 430px;
+    width: 360px;
+    height: 460px;
   }
   
   .about-container2{
