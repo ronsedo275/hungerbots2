@@ -25,13 +25,11 @@ nav h1{
 
 .navbar-container{
     height: 10vh;
-}
-
-.navbar-container{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .home-container{
     height: 90vh;
@@ -91,102 +89,72 @@ a:hover{
     display: flex;
     gap: 5rem;
     position: relative;
-    bottom: 7rem;
-    padding-left: 13rem;
-    padding-right: 13rem;
+    bottom: 13rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .card i{
-    font-size: 60px;
+    font-size: 150px;
     padding-bottom: .5rem;
 }
 
-.card{
-    background: #FBA61A;
+h2{
+  font-size: 46px;
+  margin-bottom: 15px;
+}
+
+.cards-donate, .cards-drives{
+  background: #FBA61A;
+  border: 10px solid #f99a01;
+  color: #fff;
+
+}
+
+
+
+.hello{
+  background-color: transparent;
     color: #fff;
+    padding: 20px 40px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease .4s;
+    font-size: 20px;
+}
+
+.cards-volunteer{
+  background: #7EC248;
+  border: 10px solid #68ba26;
+  color: #fff;
+
+}
+
+
+
+
+
+.card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50rem;
-    height: 12rem;
+    width: 95rem;
+    height: 30rem;
     border-radius: 30px;
     transition: all .4s ease;
     cursor: pointer;
     justify-content: center;
 }
 
-.contact-container{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    justify-self: center;
-    padding-top: 6rem;
-}
 
-
-  h2 {
-    margin-bottom: 20px;
-  }
-  
-  .ip1, .ip2{
-    width: 300px;
-  }
-
-
-  label {
-    display: block;
-    margin-bottom: 8px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  textarea {
-    height: 100px;
-  }
-
-  button{
-    background-color: transparent;
-    color: #fff;
-    padding: 10px 20px;
-    border: 2px solid white;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all ease .4s;
-  }
-
-  button:hover{
-    background-color: #ffffff;
-    color: #FBA61A;
-    border: 2px #FBA61A solid;
-  }
-  
-  .submit {
-    background-color: #FBA61A;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-  .submit:hover{
-    border: none;
-  }
 
   .about-container{
     height: 60vh;
-    width: 167vh;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -195,8 +163,10 @@ a:hover{
 
 
   .about-container-whole{
-    height: 70vh;
+    height: 90vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
     align-items: center;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -220,11 +190,6 @@ a:hover{
     justify-content: center;
     flex-direction: column;
 
-  }
-
-  .contact-ip{
-    display: flex;
-    gap: 1rem;
   }
 
   .about-title{
@@ -268,5 +233,16 @@ a:hover{
  }
 
  .footer-container{
-  padding-top: 5rem;
+    padding-top: 5rem;
  }
+
+@media screen and (max-width: 1048px) {
+  .hello{
+    padding: 10px 1.5rem;
+  }
+
+  .cards-container{
+    width: 70rem;
+  }
+}
+
